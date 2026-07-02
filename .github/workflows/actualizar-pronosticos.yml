@@ -1,18 +1,12 @@
 name: Actualizar pronósticos
 
+run-name: Pronósticos SMN · disparo externo
+
 on:
   workflow_dispatch:
-    inputs:
-      force_deploy:
-        description: "Publicar Pages aunque no cambien los datos"
-        required: false
-        default: false
-        type: boolean
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: climate-forecasts
@@ -22,9 +16,6 @@ jobs:
   actualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-
-    outputs:
-      deploy_pages: ${{ steps.publicar.outputs.deploy_pages }}
 
     steps:
       - name: Descargar repositorio
@@ -52,7 +43,6 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Guardar actualización
-        id: publicar
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -66,20 +56,14 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "No hay cambios para guardar."
-
-            if [[ "${{ inputs.force_deploy }}" == "true" ]]; then
-              echo "deploy_pages=true" >> "$GITHUB_OUTPUT"
-            else
-              echo "deploy_pages=false" >> "$GITHUB_OUTPUT"
-            fi
-
             exit 0
           fi
 
           git commit -m "Actualizar pronósticos meteorológicos"
 
           for intento in 1 2 3; do
-            echo "Intento de publicación ${intento}/3"
+            echo "Intento de guardado ${intento}/3"
+
             git fetch origin main
 
             if ! git rebase origin/main; then
@@ -89,46 +73,12 @@ jobs:
             fi
 
             if git push origin HEAD:main; then
-              echo "deploy_pages=true" >> "$GITHUB_OUTPUT"
+              echo "Pronósticos meteorológicos actualizados correctamente."
               exit 0
             fi
 
             sleep 5
           done
 
-          echo "No fue posible publicar después de 3 intentos."
+          echo "No fue posible guardar los cambios después de 3 intentos."
           exit 1
-
-  publicar_pages:
-    name: Publicar Pages directamente
-    needs: actualizar
-    if: needs.actualizar.outputs.deploy_pages == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Descargar versión publicada
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Empaquetar carpeta docs
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: docs
-
-      - name: Desplegar GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
