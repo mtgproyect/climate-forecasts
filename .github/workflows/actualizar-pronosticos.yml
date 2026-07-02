@@ -2,9 +2,17 @@ name: Actualizar pronósticos
 
 on:
   workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: "Publicar Pages aunque no cambien los datos"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: climate-forecasts
@@ -14,6 +22,10 @@ jobs:
   actualizar:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+
+    outputs:
+      deploy_pages: ${{ steps.publicar.outputs.deploy_pages }}
+
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -39,14 +51,28 @@ jobs:
       - name: Ejecutar pruebas
         run: python -m unittest discover -s tests -v
 
-      - name: Publicar actualización
+      - name: Guardar actualización
+        id: publicar
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/cache/pronosticos.json data/fuentes/pronosticos_historicos_antartida.json docs
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/cache/pronosticos.json \
+            data/fuentes/pronosticos_historicos_antartida.json \
+            docs
 
           if git diff --cached --quiet; then
             echo "No hay cambios para guardar."
+
+            if [[ "${{ inputs.force_deploy }}" == "true" ]]; then
+              echo "deploy_pages=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "deploy_pages=false" >> "$GITHUB_OUTPUT"
+            fi
+
             exit 0
           fi
 
@@ -55,14 +81,54 @@ jobs:
           for intento in 1 2 3; do
             echo "Intento de publicación ${intento}/3"
             git fetch origin main
+
             if ! git rebase origin/main; then
               git rebase --abort || true
-              echo "Conflicto con un cambio manual en archivos generados."
+              echo "Conflicto con archivos generados."
               exit 1
             fi
+
             if git push origin HEAD:main; then
+              echo "deploy_pages=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
+
             sleep 5
           done
+
+          echo "No fue posible publicar después de 3 intentos."
           exit 1
+
+  publicar_pages:
+    name: Publicar Pages directamente
+    needs: actualizar
+    if: needs.actualizar.outputs.deploy_pages == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Descargar versión publicada
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar carpeta docs
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - name: Desplegar GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
