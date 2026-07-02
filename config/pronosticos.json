@@ -1,0 +1,1906 @@
+{
+  "schema_version": 1,
+  "count": 475,
+  "forecast_references": [
+    {
+      "forecast_reference_id": 19,
+      "locality_count": 33
+    },
+    {
+      "forecast_reference_id": 30,
+      "locality_count": 20
+    },
+    {
+      "forecast_reference_id": 43,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 46,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 117,
+      "locality_count": 7
+    },
+    {
+      "forecast_reference_id": 131,
+      "locality_count": 42
+    },
+    {
+      "forecast_reference_id": 132,
+      "locality_count": 5
+    },
+    {
+      "forecast_reference_id": 137,
+      "locality_count": 20
+    },
+    {
+      "forecast_reference_id": 169,
+      "locality_count": 79
+    },
+    {
+      "forecast_reference_id": 215,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 291,
+      "locality_count": 145
+    },
+    {
+      "forecast_reference_id": 421,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 454,
+      "locality_count": 140
+    },
+    {
+      "forecast_reference_id": 590,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 601,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 616,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 723,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 794,
+      "locality_count": 213
+    },
+    {
+      "forecast_reference_id": 856,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1018,
+      "locality_count": 270
+    },
+    {
+      "forecast_reference_id": 1160,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1187,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1204,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1285,
+      "locality_count": 5
+    },
+    {
+      "forecast_reference_id": 1298,
+      "locality_count": 52
+    },
+    {
+      "forecast_reference_id": 1305,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1369,
+      "locality_count": 33
+    },
+    {
+      "forecast_reference_id": 1382,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1425,
+      "locality_count": 53
+    },
+    {
+      "forecast_reference_id": 1446,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1481,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1606,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1614,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1656,
+      "locality_count": 56
+    },
+    {
+      "forecast_reference_id": 1695,
+      "locality_count": 59
+    },
+    {
+      "forecast_reference_id": 1754,
+      "locality_count": 21
+    },
+    {
+      "forecast_reference_id": 1769,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1775,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 1790,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1813,
+      "locality_count": 14
+    },
+    {
+      "forecast_reference_id": 1827,
+      "locality_count": 16
+    },
+    {
+      "forecast_reference_id": 1839,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1840,
+      "locality_count": 14
+    },
+    {
+      "forecast_reference_id": 1868,
+      "locality_count": 3
+    },
+    {
+      "forecast_reference_id": 1869,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1960,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2006,
+      "locality_count": 136
+    },
+    {
+      "forecast_reference_id": 2072,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2124,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2160,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2248,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2278,
+      "locality_count": 103
+    },
+    {
+      "forecast_reference_id": 2317,
+      "locality_count": 59
+    },
+    {
+      "forecast_reference_id": 2334,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2410,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2579,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2755,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2819,
+      "locality_count": 174
+    },
+    {
+      "forecast_reference_id": 2990,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3266,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3279,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3362,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3391,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3482,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3632,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3722,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3823,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3834,
+      "locality_count": 29
+    },
+    {
+      "forecast_reference_id": 3864,
+      "locality_count": 67
+    },
+    {
+      "forecast_reference_id": 3884,
+      "locality_count": 73
+    },
+    {
+      "forecast_reference_id": 3889,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3989,
+      "locality_count": 110
+    },
+    {
+      "forecast_reference_id": 4040,
+      "locality_count": 16
+    },
+    {
+      "forecast_reference_id": 4129,
+      "locality_count": 57
+    },
+    {
+      "forecast_reference_id": 4144,
+      "locality_count": 29
+    },
+    {
+      "forecast_reference_id": 4146,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 4152,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4194,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4298,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4299,
+      "locality_count": 11
+    },
+    {
+      "forecast_reference_id": 4411,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4462,
+      "locality_count": 36
+    },
+    {
+      "forecast_reference_id": 4504,
+      "locality_count": 13
+    },
+    {
+      "forecast_reference_id": 4512,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4547,
+      "locality_count": 12
+    },
+    {
+      "forecast_reference_id": 4558,
+      "locality_count": 37
+    },
+    {
+      "forecast_reference_id": 4569,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4590,
+      "locality_count": 32
+    },
+    {
+      "forecast_reference_id": 4716,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4749,
+      "locality_count": 23
+    },
+    {
+      "forecast_reference_id": 4813,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4814,
+      "locality_count": 41
+    },
+    {
+      "forecast_reference_id": 4817,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4826,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4828,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4846,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4864,
+      "locality_count": 3
+    },
+    {
+      "forecast_reference_id": 4875,
+      "locality_count": 40
+    },
+    {
+      "forecast_reference_id": 4933,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4941,
+      "locality_count": 45
+    },
+    {
+      "forecast_reference_id": 5026,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5116,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5149,
+      "locality_count": 239
+    },
+    {
+      "forecast_reference_id": 5244,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5255,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5257,
+      "locality_count": 127
+    },
+    {
+      "forecast_reference_id": 5385,
+      "locality_count": 112
+    },
+    {
+      "forecast_reference_id": 5490,
+      "locality_count": 75
+    },
+    {
+      "forecast_reference_id": 5548,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5560,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5666,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5756,
+      "locality_count": 27
+    },
+    {
+      "forecast_reference_id": 5845,
+      "locality_count": 14
+    },
+    {
+      "forecast_reference_id": 5884,
+      "locality_count": 2
+    },
+    {
+      "forecast_reference_id": 5912,
+      "locality_count": 4
+    },
+    {
+      "forecast_reference_id": 5971,
+      "locality_count": 35
+    },
+    {
+      "forecast_reference_id": 5976,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5986,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6002,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6094,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6131,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6200,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6289,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6425,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 6470,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6485,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6500,
+      "locality_count": 108
+    },
+    {
+      "forecast_reference_id": 6570,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6588,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6629,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6673,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6706,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6717,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6733,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6781,
+      "locality_count": 66
+    },
+    {
+      "forecast_reference_id": 6834,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6922,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6937,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7007,
+      "locality_count": 97
+    },
+    {
+      "forecast_reference_id": 7031,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7094,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7142,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7158,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7215,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7236,
+      "locality_count": 85
+    },
+    {
+      "forecast_reference_id": 7243,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7377,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7416,
+      "locality_count": 83
+    },
+    {
+      "forecast_reference_id": 7435,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7442,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7446,
+      "locality_count": 51
+    },
+    {
+      "forecast_reference_id": 7481,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7493,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7546,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7706,
+      "locality_count": 103
+    },
+    {
+      "forecast_reference_id": 7803,
+      "locality_count": 19
+    },
+    {
+      "forecast_reference_id": 7815,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7873,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7925,
+      "locality_count": 183
+    },
+    {
+      "forecast_reference_id": 8108,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8207,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8247,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8464,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8486,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8519,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8567,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8578,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8689,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8803,
+      "locality_count": 43
+    },
+    {
+      "forecast_reference_id": 8817,
+      "locality_count": 18
+    },
+    {
+      "forecast_reference_id": 8838,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8889,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8907,
+      "locality_count": 8
+    },
+    {
+      "forecast_reference_id": 8967,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8969,
+      "locality_count": 132
+    },
+    {
+      "forecast_reference_id": 9002,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9117,
+      "locality_count": 80
+    },
+    {
+      "forecast_reference_id": 9254,
+      "locality_count": 77
+    },
+    {
+      "forecast_reference_id": 9278,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9303,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9378,
+      "locality_count": 25
+    },
+    {
+      "forecast_reference_id": 9450,
+      "locality_count": 89
+    },
+    {
+      "forecast_reference_id": 9485,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9512,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9539,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9553,
+      "locality_count": 38
+    },
+    {
+      "forecast_reference_id": 9588,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9589,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 9598,
+      "locality_count": 62
+    },
+    {
+      "forecast_reference_id": 9628,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9655,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9767,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9827,
+      "locality_count": 98
+    },
+    {
+      "forecast_reference_id": 9943,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10025,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10047,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10118,
+      "locality_count": 476
+    },
+    {
+      "forecast_reference_id": 10290,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10294,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10408,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10563,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10615,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10642,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10806,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10810,
+      "locality_count": 2
+    },
+    {
+      "forecast_reference_id": 10811,
+      "locality_count": 7
+    },
+    {
+      "forecast_reference_id": 10817,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10821,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10828,
+      "locality_count": 6
+    },
+    {
+      "forecast_reference_id": 10830,
+      "locality_count": 16
+    },
+    {
+      "forecast_reference_id": 10831,
+      "locality_count": 3
+    },
+    {
+      "forecast_reference_id": 10834,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10837,
+      "locality_count": 23
+    },
+    {
+      "forecast_reference_id": 10846,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10851,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10859,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10902,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10904,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10906,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10908,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10911,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10913,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10915,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10917,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10920,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10922,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10924,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10926,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10928,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10930,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10932,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10935,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10937,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10939,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10941,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10943,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10947,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10975,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 151,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 204,
+      "locality_count": 58
+    },
+    {
+      "forecast_reference_id": 253,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 574,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 600,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 605,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 711,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 765,
+      "locality_count": 41
+    },
+    {
+      "forecast_reference_id": 805,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 867,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 896,
+      "locality_count": 129
+    },
+    {
+      "forecast_reference_id": 1165,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1188,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1288,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1329,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1428,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1449,
+      "locality_count": 68
+    },
+    {
+      "forecast_reference_id": 1470,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1491,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1601,
+      "locality_count": 30
+    },
+    {
+      "forecast_reference_id": 1611,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1670,
+      "locality_count": 21
+    },
+    {
+      "forecast_reference_id": 1710,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1712,
+      "locality_count": 78
+    },
+    {
+      "forecast_reference_id": 1788,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1795,
+      "locality_count": 15
+    },
+    {
+      "forecast_reference_id": 1808,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1857,
+      "locality_count": 4
+    },
+    {
+      "forecast_reference_id": 1860,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1861,
+      "locality_count": 16
+    },
+    {
+      "forecast_reference_id": 1865,
+      "locality_count": 2
+    },
+    {
+      "forecast_reference_id": 1870,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 1967,
+      "locality_count": 86
+    },
+    {
+      "forecast_reference_id": 2003,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2060,
+      "locality_count": 114
+    },
+    {
+      "forecast_reference_id": 2073,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2139,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2195,
+      "locality_count": 63
+    },
+    {
+      "forecast_reference_id": 2199,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2311,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2368,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2474,
+      "locality_count": 420
+    },
+    {
+      "forecast_reference_id": 2558,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2668,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2768,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 2954,
+      "locality_count": 322
+    },
+    {
+      "forecast_reference_id": 3030,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3270,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3278,
+      "locality_count": 58
+    },
+    {
+      "forecast_reference_id": 3327,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3382,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3392,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3498,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3574,
+      "locality_count": 269
+    },
+    {
+      "forecast_reference_id": 3666,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3811,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 3833,
+      "locality_count": 14
+    },
+    {
+      "forecast_reference_id": 3858,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4102,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4116,
+      "locality_count": 33
+    },
+    {
+      "forecast_reference_id": 4159,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 4176,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4202,
+      "locality_count": 37
+    },
+    {
+      "forecast_reference_id": 4232,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4265,
+      "locality_count": 9
+    },
+    {
+      "forecast_reference_id": 4317,
+      "locality_count": 38
+    },
+    {
+      "forecast_reference_id": 4338,
+      "locality_count": 95
+    },
+    {
+      "forecast_reference_id": 4350,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4380,
+      "locality_count": 4
+    },
+    {
+      "forecast_reference_id": 4443,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4561,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4617,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4712,
+      "locality_count": 133
+    },
+    {
+      "forecast_reference_id": 4736,
+      "locality_count": 34
+    },
+    {
+      "forecast_reference_id": 4750,
+      "locality_count": 25
+    },
+    {
+      "forecast_reference_id": 4771,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4815,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4822,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4827,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4841,
+      "locality_count": 25
+    },
+    {
+      "forecast_reference_id": 4843,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4851,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 4852,
+      "locality_count": 2
+    },
+    {
+      "forecast_reference_id": 4856,
+      "locality_count": 24
+    },
+    {
+      "forecast_reference_id": 4967,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5107,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5136,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5254,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5324,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5552,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5582,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5648,
+      "locality_count": 39
+    },
+    {
+      "forecast_reference_id": 5717,
+      "locality_count": 185
+    },
+    {
+      "forecast_reference_id": 5729,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5810,
+      "locality_count": 37
+    },
+    {
+      "forecast_reference_id": 5856,
+      "locality_count": 18
+    },
+    {
+      "forecast_reference_id": 5874,
+      "locality_count": 14
+    },
+    {
+      "forecast_reference_id": 5886,
+      "locality_count": 16
+    },
+    {
+      "forecast_reference_id": 5888,
+      "locality_count": 7
+    },
+    {
+      "forecast_reference_id": 5905,
+      "locality_count": 6
+    },
+    {
+      "forecast_reference_id": 5908,
+      "locality_count": 3
+    },
+    {
+      "forecast_reference_id": 5978,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 5988,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6009,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6110,
+      "locality_count": 99
+    },
+    {
+      "forecast_reference_id": 6118,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6178,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6226,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6254,
+      "locality_count": 78
+    },
+    {
+      "forecast_reference_id": 6370,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6387,
+      "locality_count": 81
+    },
+    {
+      "forecast_reference_id": 6484,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6540,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6565,
+      "locality_count": 60
+    },
+    {
+      "forecast_reference_id": 6587,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6594,
+      "locality_count": 54
+    },
+    {
+      "forecast_reference_id": 6628,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6653,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6680,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6698,
+      "locality_count": 121
+    },
+    {
+      "forecast_reference_id": 6710,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 6713,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6718,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6766,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6826,
+      "locality_count": 103
+    },
+    {
+      "forecast_reference_id": 6887,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 6927,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7006,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7079,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7099,
+      "locality_count": 64
+    },
+    {
+      "forecast_reference_id": 7105,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7151,
+      "locality_count": 21
+    },
+    {
+      "forecast_reference_id": 7155,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7211,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7223,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7337,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7363,
+      "locality_count": 75
+    },
+    {
+      "forecast_reference_id": 7391,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7438,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7470,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7492,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7499,
+      "locality_count": 18
+    },
+    {
+      "forecast_reference_id": 7517,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7641,
+      "locality_count": 145
+    },
+    {
+      "forecast_reference_id": 7759,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 7851,
+      "locality_count": 111
+    },
+    {
+      "forecast_reference_id": 7852,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8075,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8088,
+      "locality_count": 104
+    },
+    {
+      "forecast_reference_id": 8183,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8217,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8296,
+      "locality_count": 109
+    },
+    {
+      "forecast_reference_id": 8368,
+      "locality_count": 181
+    },
+    {
+      "forecast_reference_id": 8443,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8469,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8480,
+      "locality_count": 82
+    },
+    {
+      "forecast_reference_id": 8501,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8561,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8573,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8618,
+      "locality_count": 140
+    },
+    {
+      "forecast_reference_id": 8623,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8745,
+      "locality_count": 23
+    },
+    {
+      "forecast_reference_id": 8786,
+      "locality_count": 2
+    },
+    {
+      "forecast_reference_id": 8808,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8861,
+      "locality_count": 55
+    },
+    {
+      "forecast_reference_id": 8866,
+      "locality_count": 12
+    },
+    {
+      "forecast_reference_id": 8873,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8899,
+      "locality_count": 10
+    },
+    {
+      "forecast_reference_id": 8965,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8970,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 8994,
+      "locality_count": 72
+    },
+    {
+      "forecast_reference_id": 9221,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9281,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9296,
+      "locality_count": 29
+    },
+    {
+      "forecast_reference_id": 9352,
+      "locality_count": 31
+    },
+    {
+      "forecast_reference_id": 9360,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9489,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9524,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9534,
+      "locality_count": 47
+    },
+    {
+      "forecast_reference_id": 9567,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9585,
+      "locality_count": 52
+    },
+    {
+      "forecast_reference_id": 9592,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9648,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9690,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9743,
+      "locality_count": 90
+    },
+    {
+      "forecast_reference_id": 9903,
+      "locality_count": 34
+    },
+    {
+      "forecast_reference_id": 9925,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 9933,
+      "locality_count": 48
+    },
+    {
+      "forecast_reference_id": 9949,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10015,
+      "locality_count": 15
+    },
+    {
+      "forecast_reference_id": 10026,
+      "locality_count": 18
+    },
+    {
+      "forecast_reference_id": 10030,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10120,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10292,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10297,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10444,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10587,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10620,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10731,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10804,
+      "locality_count": 41
+    },
+    {
+      "forecast_reference_id": 10814,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10818,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10826,
+      "locality_count": 6
+    },
+    {
+      "forecast_reference_id": 10827,
+      "locality_count": 45
+    },
+    {
+      "forecast_reference_id": 10829,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10833,
+      "locality_count": 2
+    },
+    {
+      "forecast_reference_id": 10835,
+      "locality_count": 20
+    },
+    {
+      "forecast_reference_id": 10836,
+      "locality_count": 4
+    },
+    {
+      "forecast_reference_id": 10840,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10847,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10857,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10901,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10903,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10905,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10907,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10909,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10910,
+      "locality_count": 13
+    },
+    {
+      "forecast_reference_id": 10912,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10914,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10916,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10918,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10919,
+      "locality_count": 6
+    },
+    {
+      "forecast_reference_id": 10921,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10923,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10925,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10927,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10929,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10931,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10933,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10934,
+      "locality_count": 17
+    },
+    {
+      "forecast_reference_id": 10936,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10938,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10940,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10942,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10945,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10948,
+      "locality_count": 1
+    },
+    {
+      "forecast_reference_id": 10955,
+      "locality_count": 184
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-30T15:08:08.264844+00:00",
+  "source": "Respuestas oficiales del endpoint histórico del SMN, capturadas o sincronizadas desde el caché operativo.",
+  "expected_antartic_references": [
+    10806,
+    10810,
+    10811,
+    10814,
+    10817,
+    10818
+  ],
+  "count": 6,
+  "records": {
+    "10806": [
+      {
+        "_id": "598b871ff9a90f9a3d47078b",
+        "timestamp": 1778770803604,
+        "date_time": "2026-05-15 09:00",
+        "location_id": 10806,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -19,
+            "temp_max": -14,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 5,
+              "description": "Cielo cubierto. Probables nevadas aisladas. Vientos moderados a regulares del Noreste. Visibilidad regular a mala."
+            },
+            "afternoon": {
+              "weather_id": 16,
+              "description": "Nubosidad variable. Probables nevadas aisladas. Mejorando. Vientos moderados del sector Este. Visibilidad regular a buena."
+            }
+          }
+        }
+      }
+    ],
+    "10810": [
+      {
+        "_id": "598b871ff9a90f9a3d470749",
+        "timestamp": 1778770803513,
+        "date_time": "2026-05-15 09:00",
+        "location_id": 10810,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -5,
+            "temp_max": 4,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 1,
+              "description": "Cielo algo a parcial nublado. Vientos moderados a regulares del Sudoeste. Visibilidad buena."
+            },
+            "afternoon": {
+              "weather_id": 2,
+              "description": "Cielo algo a parcial nublado. Vientos regulares a muy fuertes del Sudoeste con ráfagas. Visibilidad buena."
+            }
+          }
+        }
+      }
+    ],
+    "10811": [
+      {
+        "_id": "598b871ff9a90f9a3d47074a",
+        "timestamp": 1778770803513,
+        "date_time": "2026-05-15 09:00",
+        "location_id": 10811,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -5,
+            "temp_max": 1,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 15,
+              "description": "Nubosidad variable. Probables neblinas. Probables nevadas aisladas. Vientos muy fuertes a fuertes del sector Oeste con ráfagas. Visibilidad regular a buena."
+            },
+            "afternoon": {
+              "weather_id": 7,
+              "description": "Nubosidad variable. Probables neblinas. Probables nevadas aisladas. Vientos muy fuertes a fuertes del sector Oeste con ráfagas. Visibilidad regular a mala. "
+            }
+          }
+        }
+      }
+    ],
+    "10814": [
+      {
+        "_id": "598b871ff9a90f9a3d47074c",
+        "timestamp": 1778770803513,
+        "date_time": "2026-05-15 09:00",
+        "location_id": 10814,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -7,
+            "temp_max": -3,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 15,
+              "description": "Cielo cubierto. Probables nevadas aisladas. Vientos moderados a regulares del Noroeste con ráfagas. Visibilidad buena a regular. "
+            },
+            "afternoon": {
+              "weather_id": 15,
+              "description": "Nubosidad variable. Vientos regulares a muy fuertes del Noroeste con ráfagas. Visibilidad buena."
+            }
+          }
+        }
+      }
+    ],
+    "10817": [
+      {
+        "_id": "598b871ff9a90f9a3d47074b",
+        "timestamp": 1778770803513,
+        "date_time": "2026-05-15 09:00",
+        "location_id": 10817,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -8,
+            "temp_max": -2,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 5,
+              "description": "Cielo cubierto. Probables neblinas. Ventisca. Probables nevadas intermitentes. Vientos muy fuertes a regulares del Noroeste con ráfagas, en disminución. Visibilidad regular a buena."
+            },
+            "afternoon": {
+              "weather_id": 15,
+              "description": "Nubosidad variable. Vientos regulares a moderados del Noroeste rotando al Noreste. Visibilidad buena."
+            }
+          }
+        }
+      }
+    ],
+    "10818": [
+      {
+        "_id": "598b871ff9a90f9a3d47074e",
+        "timestamp": 1778770803515,
+        "date_time": "2026-05-15 18:00",
+        "location_id": 10818,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -9,
+            "temp_max": 1,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 1,
+              "description": "Cielo algo nublado. Vientos moderados a regulares del Sudoeste. Visibilidad buena."
+            },
+            "afternoon": {
+              "weather_id": 2,
+              "description": "Cielo algo a parcial nublado. Vientos regulares a fuertes del Sudoeste con ráfagas. Visibilidad buena. "
+            }
+          }
+        }
+      }
+    ]
+  }
+}
