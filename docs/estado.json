@@ -1,1 +1,1 @@
-{"schema_version":1,"generated_at":"2026-07-01T21:10:47.539455+00:00","status":"seed","message":"Datos iniciales migrados desde climateproyectar."}
+{"schema_version":1,"generated_at":"2026-07-02T04:51:36.631950+00:00","status":"ok","expected":475,"fresh_queries":469,"stale_queries":6,"failed_queries":0}
