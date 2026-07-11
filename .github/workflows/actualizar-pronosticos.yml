@@ -42,7 +42,7 @@ jobs:
       - name: Ejecutar pruebas
         run: python -m unittest discover -s tests -v
 
-      - name: Guardar actualización
+      - name: Guardar actualización en GitHub
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -55,7 +55,7 @@ jobs:
             docs
 
           if git diff --cached --quiet; then
-            echo "No hay cambios para guardar."
+            echo "No hay cambios para guardar en GitHub."
             exit 0
           fi
 
@@ -73,7 +73,7 @@ jobs:
             fi
 
             if git push origin HEAD:main; then
-              echo "Pronósticos meteorológicos actualizados correctamente."
+              echo "Pronósticos meteorológicos actualizados correctamente en GitHub."
               exit 0
             fi
 
@@ -82,3 +82,29 @@ jobs:
 
           echo "No fue posible guardar los cambios después de 3 intentos."
           exit 1
+
+      - name: Instalar AWS CLI para R2
+        run: |
+          python -m pip install --upgrade pip
+          pip install awscli
+
+      - name: Subir pronósticos a Cloudflare R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          AWS_EC2_METADATA_DISABLED: true
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+        run: |
+          aws s3 cp docs/manifiesto.json s3://weathervar-data/forecasts/manifiesto.json \
+            --endpoint-url "$R2_ENDPOINT" \
+            --content-type "application/json" \
+            --cache-control "public, max-age=300"
+
+          aws s3 sync docs/pronosticos/ s3://weathervar-data/forecasts/pronosticos/ \
+            --endpoint-url "$R2_ENDPOINT" \
+            --delete \
+            --content-type "application/json" \
+            --cache-control "public, max-age=300"
+
+          echo "Pronósticos subidos correctamente a Cloudflare R2."
